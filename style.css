@@ -1,0 +1,111 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+    background: rgb(105, 105, 105);
+    height: 100px;
+    margin-bottom: 30px;
+
+}
+
+
+nav {
+    width: 960px;
+    margin: 0px auto;
+}
+
+nav img {
+    margin-top: 5px;
+    margin-right: 30px;
+    float: left;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 70px;
+}
+
+a {
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+}
+
+
+/* MAIN  */
+main {
+    width: 960px;
+    margin: 0px auto;
+}
+
+
+
+main li {
+   
+    float: left;
+    margin: 30px 30px 30px 0px;
+    margin-right: 30px;  
+    /*  the margin -right to edit the spaces bettwen the imgs   */
+}
+
+main li:last-child{
+    margin-right: 0px;
+}
+
+/* MAIN-FEATURES SECTION */
+
+section img {
+    float: left;
+}
+
+ /* im editing the section dev */
+section div {
+    width: 450px;
+    float: right ;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* im picking the h2 in the section to style */
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* here im styiling the p in the secton forn and margin and height   */
+section p {
+    height: 322px;
+    overflow:hidden;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+section form input {
+    border: none;
+    font-size: 18px;
+    color: rgb(246, 250, 1);
+    /* the color of text insind the  */
+    background: rgb(235, 0, 0);
+    padding: 10px 30px;
+    border-radius: 3px;
+    
+   
+}
+
+section form input:hover {
+    background: rgb(255, 196, 2);
+}
+
+/* FOOTER   the clear all opition clears the float properties done above so that the footer doesn't float in the middle of the page*/
+
+footer{
+    clear : both;
+    height: 150px;
+    background: #444;
+}
