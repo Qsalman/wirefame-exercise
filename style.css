@@ -78,10 +78,10 @@ section h2 {
 }
 
 
-/* here im styiling the p in the secton forn and margin and height   */
+/* here im styiling the p in the secton form and margin and height   */
 section p {
     height: 322px;
-    overflow:hidden;
+    overflow:scroll;
     line-height: 22px;
     margin-bottom: 10px;
 }
@@ -100,6 +100,7 @@ section form input {
 
 section form input:hover {
     background: rgb(255, 196, 2);
+    transition: 350ms;
 }
 
 /* FOOTER   the clear all opition clears the float properties done above so that the footer doesn't float in the middle of the page*/
